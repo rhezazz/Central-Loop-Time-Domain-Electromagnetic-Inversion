@@ -138,7 +138,7 @@ hold off
 legend({'Synthetic Model','Inversion Model'},'Color','none','FontWeight','Bold','Location','southwest');
 %legend({'Inversion Model'},'Color','none','FontWeight','Bold','Location','southwest');
 axis([1 10^5 1 1000])
-xlabel('Resistivity (\Ohm.m)','FontSize',8,'FontWeight','Bold');
+xlabel('Resistivity (\Omega.m)','FontSize',8,'FontWeight','Bold');
 ylabel('Depth (m)','FontSize',8,'FontWeight','Bold');
 title('\bf \fontsize{10} Model');
 subtitle(['\rho_{1} = ',num2str(G_best_rho(1)),' || \rho_{2} = ',num2str(G_best_rho(2)),' || \rho_{3} = ',num2str(G_best_rho(3)),' || thick_{1} = ',num2str(G_best_thick(1)),' || thick_{2} = ',num2str(G_best_thick(2))],'FontWeight','bold')
