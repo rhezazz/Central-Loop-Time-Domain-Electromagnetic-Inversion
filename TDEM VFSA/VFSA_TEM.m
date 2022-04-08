@@ -96,7 +96,7 @@ loglog(t,TEM_new,'r',t,TEM_sin,'ob','MarkerSize',6,'LineWidth',2.5);
 ylim([10^-20 10^-2])
 legend({'Calculated Data','Observed Data'},'Color','none','FontWeight','Bold');
 xlabel('Time (ms)','FontSize',8,'FontWeight','Bold');
-ylabel('dBdt (V/\itm^{2}) (Ohm.m)','FontSize',8,'FontWeight','Bold');
+ylabel('dBdt (V/\itm^{2})','FontSize',8,'FontWeight','Bold');
 title(['\bf \fontsize{10}\fontname{Times}TEM Respon  || Misfit : ', num2str(Egen(itr)),' || iteration : ', num2str(itr)]);
 
 grid on
@@ -108,7 +108,7 @@ hold off
 legend({'Synthetic Model','Inversion Model'},'Color','none','FontWeight','Bold','Location','southwest');
 %legend({'Inversion Model'},'Color','none','FontWeight','Bold','Location','southwest');
 axis([1 10^5 1 1000])
-xlabel('Resistivity (Ohm.m)','FontSize',8,'FontWeight','Bold');
+xlabel('Resistivity (\Omega.m)','FontSize',8,'FontWeight','Bold');
 ylabel('Depth (m)','FontSize',8,'FontWeight','Bold');
 title('\bf \fontsize{10} Model');
 subtitle(['\rho_{1} = ',num2str(rho1(1)),' || \rho_{2} = ',num2str(rho1(2)),' || \rho_{3} = ',num2str(rho1(3)),' || thick_{1} = ',num2str(thick1(1)),' || thick_{2} = ',num2str(thick1(2))],'FontWeight','bold')
