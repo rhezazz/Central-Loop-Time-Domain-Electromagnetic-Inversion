@@ -95,7 +95,7 @@ subplot(1,6,[1 3])
 loglog(t,TEM_new,'r',t,TEM_sin,'ob','MarkerSize',6,'LineWidth',2.5);
 ylim([10^-20 10^-2])
 legend({'Calculated Data','Observed Data'},'Color','none','FontWeight','Bold');
-xlabel('AB/2 (m)','FontSize',8,'FontWeight','Bold');
+xlabel('Time (ms)','FontSize',8,'FontWeight','Bold');
 ylabel('dBdt (V/\itm^{2}) (Ohm.m)','FontSize',8,'FontWeight','Bold');
 title(['\bf \fontsize{10}\fontname{Times}TEM Respon  || Misfit : ', num2str(Egen(itr)),' || iteration : ', num2str(itr)]);
 
