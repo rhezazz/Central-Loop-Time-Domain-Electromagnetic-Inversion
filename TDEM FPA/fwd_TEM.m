@@ -11,7 +11,7 @@ for i = 1 : length(t)
     av_con(i) = mean(con);
 end
 
-for k = 1 : 10
+for k = 1 : 20
     d = sqrt((c*t)./(av_con*u0));
     F1 = zeros(length(t),(length(z)-1));
     F2 = zeros(length(t),(length(z)-1));
